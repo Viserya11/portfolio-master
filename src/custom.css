@@ -1,0 +1,219 @@
+body {
+  background: #787aa2;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  object-fit:cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  min-width: none;
+  padding: 5px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+transition: ease 0.5s;
+
+}
+
+.card img:hover { 
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+filter: grayscale(0%);
+}
+
+
+.buttonflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardbutton:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  height: 1.5rem;
+  color: beige;
+  width: 4rem;
+  background-color: rgb(182, 137, 210);
+  border: none;
+  box-shadow: 0px 5px 0px 5px rgb(150, 111, 174);
+  -webkit-box-shadow:  0px 5px 0px 5px rgb(150, 111, 174);
+  -moz-box-shadow:  0px 5px 0px 5px rgb(150, 111, 174);
+  
+}
+
+.cardbutton:active {
+  transform: translateY(4px);
+}
+
+
+.cardbutton:nth-child(2) {
+  margin: 5px;
+  width: 5rem;
+  height: 1.5rem;
+  justify-content: center;
+  display: flex;
+  border: none;
+  color: rgb(58, 47, 47);
+  font-weight: bolder;
+  background-color: rgb(220, 220, 208);
+  box-shadow: 0px 5px 0px 5px rgba(184,170,170,1);
+  -webkit-box-shadow:  0px 5px 0px 5px rgba(184,170,170,1);
+  -moz-box-shadow:  0px 5px 0px 5px rgba(184,170,170,1);
+  
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav {
+ background-color: rgb(116, 98, 168)
+}
+
+h1 {
+  color: rgb(79, 79, 79);
+  font-weight: bold;
+}
+
+
+h3 {
+  color: rgb(79, 79, 79);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color:rgb(224, 223, 223);
+  background-clip: content-box;
+  border-right: solid 5px rgb(140, 63, 141);
+  border-bottom: solid 5px rgb(135, 58, 137);
+  padding: 5px;
+  box-shadow: inset 0 0 0 5px rgb(186, 174, 174);
+  margin-bottom: 4vh;
+}
+
+::selection {
+  background-color: rgb(83, 176, 153);
+  color:aliceblue
+}
+
+
+
+
+.title {
+  text-align: center;
+  color: rgb(49, 46, 46);
+  font-size: 1em;
+  background: rgb(63,251,201);
+background: radial-gradient(circle, rgba(63,251,201,1) 0%, rgba(252,70,215,1) 100%);
+padding: 5px;
+border-bottom: 5px solid rgb(186, 174, 174);
+}
+
+.tab-content {
+  border: 5px solid rgb(186, 174, 174);
+  width: 70vw;
+  margin: 0 auto;
+  background-color:rgb(208, 208, 208)
+  
+}
+
+.nav {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: rgb(186, 174, 174);
+}
+
+.mb-3 {
+  margin-bottom: 0!important;
+}
+
+.nav-tabs {
+  border: 5px solid rgb(186, 174, 174);
+  background: rgb(63,251,201);
+  background: radial-gradient(circle, rgba(63,251,201,1) 0%, rgba(252,70,215,1) 100%);
+  padding: 5px;
+  border-bottom: 5px solid rgb(186, 174, 174);
+}
+
+.nav-tabs .nav-link:active {
+  background-color: rgb(186, 174, 174)
+}
+
+.nav-tabs .nav-link:after {
+  background-color: rgb(186, 174, 174)
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color:  rgb(186, 174, 174);
+  color: rgb(227, 227, 227);
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-radius: 0;
+  border-right: 5px solid  rgb(158, 150, 150);
+  border-bottom: 5px solid  rgb(158, 150, 150);
+  margin: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover {
+  background-color:  rgb(186, 174, 174);
+  color: rgb(216, 216, 216);
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-radius: 0;
+  border-right: 5px solid  rgb(158, 150, 150);
+  border-bottom: 5px solid  rgb(158, 150, 150);
+  margin: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  color: #dee2e6;
+}
+
+.picofme {
+  padding: 10px;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.aboutflex {
+  display: flex;
+  gap: 10px;
+}
+
+.spacer {
+  min-height: 4.5vh;
+}
+
+.aboutmetext {
+  padding-top: 30px;
+}
+
+.aboutmetext p{
+  margin-bottom: 0;
+  
+}
+
+.card-body {
+  text-align: justify;
+}
+
+.svg {
+  max-width: 30px;
+}
+
+.icons {
+  margin-left: 30%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
