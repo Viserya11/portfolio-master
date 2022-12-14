@@ -10,7 +10,7 @@ export default function About() {
           <p>
             Hello! I'm a Junior Front-End Developer from Budapest, Hungary,
             currently looking for work. I speak Hungarian, English and the
-            languages displayed below. If you are interested in working
+            languages/frameworks displayed below. If you are interested in working
             together, don't hesitate to contact me!
             <div className="icons">
             <img className="svg" src="html.svg" alt="HTML5" />
