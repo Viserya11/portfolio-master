@@ -17,7 +17,7 @@ export default function Project(prompt) {
             <a href={prompt.href} target="_blank" rel="noreferrer"><button className="cardbutton" variant="primary">
               Code
             </button></a>
-            <a href={prompt.href2} target="_blank" rel="noreferrer"><button className="cardbutton" variant="primary">
+            <a href={prompt.href2} target="_blank" rel="noreferrer"><button className="cardbutton2" variant="primary">
               Preview
             </button></a>
           </div>

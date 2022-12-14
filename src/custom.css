@@ -30,7 +30,7 @@ filter: grayscale(0%);
   justify-content: space-between;
 }
 
-.cardbutton:nth-child(1) {
+.cardbutton {
   display: flex;
   justify-content: center;
   margin: 5px;
@@ -50,7 +50,7 @@ filter: grayscale(0%);
 }
 
 
-.cardbutton:nth-child(2) {
+.cardbutton2 {
   margin: 5px;
   width: 5rem;
   height: 1.5rem;
@@ -217,3 +217,25 @@ border-bottom: 5px solid rgb(186, 174, 174);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 720px) {
+  .aboutflex {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .picofme {
+    padding: 5px;
+    max-width: 150px;
+    max-height: 180px;
+    border-radius: 50%;
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  h1 {
+     text-align: center;
+    }
+  }
