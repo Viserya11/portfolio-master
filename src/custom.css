@@ -218,6 +218,34 @@ border-bottom: 5px solid rgb(186, 174, 174);
   margin-bottom: 1rem;
 }
 
+.contactcontainer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.05em;
+}
+
+.contactcontainer h1 {
+  margin-bottom: 1rem;
+}
+
+.contactcontainer a {
+  color: rgb(182, 137, 210);
+  transition: ease 0.3s;
+}
+
+.contactcontainer a:hover {
+  color: rgb(58, 21, 81);
+}
+
+.contactcontainer p {
+  margin-bottom: 0;
+}
+
+.contsvg {
+  min-width: 40px;
+  max-width: 40px;
+}
+
 @media screen and (max-width: 720px) {
   .aboutflex {
     display: flex;
